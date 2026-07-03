@@ -1,3 +1,16 @@
+# Speedrun-Android-Backend — Rust engine `.aar` for the Speedrun MCAT fork
+
+> This is the backend for **Speedrun** (an MCAT study app forked from AnkiDroid).
+> It builds the shared **Rust engine** — including the **topic-aware interleaving
+> scheduler** and the **Memory / Performance / Readiness** score RPCs — into an
+> `.aar` that the `Speedrun-Android` app consumes. The `anki` submodule pins the
+> Speedrun engine commit used for the build. Forked from
+> **[Anki-Android-Backend](https://github.com/ankidroid/Anki-Android-Backend)**;
+> AGPL-3.0-or-later, all engine credit to the Anki / AnkiDroid projects. The
+> upstream README follows below.
+
+---
+
 # AnkiDroid-Backend
 
 An interface for accessing Anki Desktop's Rust backend inside AnkiDroid. This
